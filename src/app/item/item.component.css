@@ -1,0 +1,61 @@
+.row {
+    font: 2rem sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    padding: 0.5rem;
+    display: flex;
+    background-color: rgb(248, 212, 133);
+
+}
+
+
+.title {
+    display: flex;
+    padding: 0.5rem;
+    width: 15rem;
+
+
+}
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(255, 0, 0)
+}
+
+.completed .total {
+    color: rgb(87, 87, 87);
+}
+
+.item {
+    padding: 0.5rem;
+    width: 7rem;
+
+
+}
+
+.total {
+    width: 7rem;
+    font-weight: bolder;
+    color: green;
+    padding: 0.5rem;
+
+}
+
+button {
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border-bottom-style: groove;
+}
+
+.action :hover {
+    background-color: hsl(0, 61%, 53%);
+    width: fit-content;
+    font-weight: bold;
+    text-decoration: none;
+
+}

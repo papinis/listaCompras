@@ -1,0 +1,12 @@
+
+.main-container{
+    margin: 0 auto;
+    background-color:hsla(60, 12%, 92%, 0.719);
+    font-size: 1.5rem;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    text-align: center;
+
+}

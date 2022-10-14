@@ -1,0 +1,25 @@
+
+menu{
+    background-color: rgba(56, 56, 56, 0.718);
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    
+
+}
+menu a:hover{
+    background-color: hsl(35, 95%, 70%);
+    width: fit-content;
+}
+
+li {
+    list-style: none;
+    display:inline;
+   
+    
+}
+ li a{
+    color: aliceblue;
+    margin: 2%;
+     
+ }
